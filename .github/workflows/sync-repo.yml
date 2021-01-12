@@ -33,11 +33,11 @@ jobs:
         if: env.dst_key
         with:
           # 必选，需要同步的Github用户（源）
-          src: github/Sunert
+          src: github/sinagod
           # 必选，需要同步到的Gitee的用户（目的）
-          dst: gitee/Sunert
+          dst: gitee/the_king_god
           # 必选，更新指定库名字
-          static_list: "Scripts"
+          static_list: "s-script"
 
           # 必选，Gitee公钥对应的私钥，https://gitee.com/profile/sshkeys
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
