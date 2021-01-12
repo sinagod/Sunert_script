@@ -37,7 +37,7 @@ jobs:
           # 必选，需要同步到的Gitee的用户（目的）
           dst: gitee/the_king_god
           # 必选，更新指定库名字
-          static_list: "s-script"
+          static_list: "Sunert_script"
 
           # 必选，Gitee公钥对应的私钥，https://gitee.com/profile/sshkeys
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
